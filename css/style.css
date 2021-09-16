@@ -1,0 +1,58 @@
+body{
+    background-color: #E3B652;
+}
+#span{
+    width: 500px;
+}
+#span p{
+    background-color: rgba(255, 71, 71, 0.77);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+.div{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.span{
+    margin-right: 50%;
+    
+}
+.selecionado{
+    color: #333;
+    display: inline-block;
+    min-width: 80px;
+    background-color: #01FA33;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.selecionado.active{
+    background-color: #BF0E00;
+    color: #fff;
+}
+#tableList{
+    margin-top: 20px;
+}
+
+.ativador{
+    border: 2px solid #ff1100;
+}
+#nav-bar{
+    width: 98.2%;
+    position: fixed;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: 3px 2px 14px #333;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-bar{
+        width: 94%;
+    }
+}
